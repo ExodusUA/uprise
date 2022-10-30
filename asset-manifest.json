@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uprise/static/css/main.56d7af2b.css",
-    "main.js": "/uprise/static/js/main.3b1aeb02.js",
+    "main.css": "/uprise/static/css/main.1b059970.css",
+    "main.js": "/uprise/static/js/main.c672cc49.js",
     "static/js/787.19f4cfef.chunk.js": "/uprise/static/js/787.19f4cfef.chunk.js",
     "static/media/authBackground.png": "/uprise/static/media/authBackground.e988ee644b8dea91007c.png",
     "static/media/SF-Pro-Display-Semibold.otf": "/uprise/static/media/SF-Pro-Display-Semibold.2e4649dd3a66a64ce00b.otf",
@@ -14,12 +14,12 @@
     "static/media/invest.svg": "/uprise/static/media/invest.b833adc66501dad9e505.svg",
     "static/media/GoogleLogo.svg": "/uprise/static/media/GoogleLogo.fbb33194e32e6b5ab264c558fd55efd0.svg",
     "index.html": "/uprise/index.html",
-    "main.56d7af2b.css.map": "/uprise/static/css/main.56d7af2b.css.map",
-    "main.3b1aeb02.js.map": "/uprise/static/js/main.3b1aeb02.js.map",
+    "main.1b059970.css.map": "/uprise/static/css/main.1b059970.css.map",
+    "main.c672cc49.js.map": "/uprise/static/js/main.c672cc49.js.map",
     "787.19f4cfef.chunk.js.map": "/uprise/static/js/787.19f4cfef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56d7af2b.css",
-    "static/js/main.3b1aeb02.js"
+    "static/css/main.1b059970.css",
+    "static/js/main.c672cc49.js"
   ]
 }
