@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/uprise/static/css/main.56d7af2b.css",
+    "main.js": "/uprise/static/js/main.81086f5d.js",
+    "static/js/787.19f4cfef.chunk.js": "/uprise/static/js/787.19f4cfef.chunk.js",
+    "static/media/authBackground.png": "/uprise/static/media/authBackground.e988ee644b8dea91007c.png",
+    "static/media/SF-Pro-Display-Semibold.otf": "/uprise/static/media/SF-Pro-Display-Semibold.2e4649dd3a66a64ce00b.otf",
+    "static/media/SF-Pro-Display-Medium.otf": "/uprise/static/media/SF-Pro-Display-Medium.0541e22941454bd007b0.otf",
+    "static/media/SF-Pro-Display-Bold.otf": "/uprise/static/media/SF-Pro-Display-Bold.0d14364066badfe8accf.otf",
+    "static/media/SF-Pro-Display-Regular.otf": "/uprise/static/media/SF-Pro-Display-Regular.b089a1f90c2a5b839565.otf",
+    "static/media/RivieraNights-Bold.otf": "/uprise/static/media/RivieraNights-Bold.27dbd1d24821c1f2ea84.otf",
+    "static/media/RivieraNights-Regular.ttf": "/uprise/static/media/RivieraNights-Regular.ef496eff2ce1dc92872d.ttf",
+    "static/media/boardBG.svg": "/uprise/static/media/boardBG.b9d1d31795ed6d700c0c.svg",
+    "static/media/invest.svg": "/uprise/static/media/invest.b833adc66501dad9e505.svg",
+    "static/media/GoogleLogo.svg": "/uprise/static/media/GoogleLogo.fbb33194e32e6b5ab264c558fd55efd0.svg",
+    "index.html": "/uprise/index.html",
+    "main.56d7af2b.css.map": "/uprise/static/css/main.56d7af2b.css.map",
+    "main.81086f5d.js.map": "/uprise/static/js/main.81086f5d.js.map",
+    "787.19f4cfef.chunk.js.map": "/uprise/static/js/787.19f4cfef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56d7af2b.css",
+    "static/js/main.81086f5d.js"
+  ]
+}
