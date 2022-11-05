@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.327" height="24.893" viewBox="0 0 24.327 24.893">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Контур_42263" data-name="Контур 42263" d="M26.044,12.183h-11.6v4.809h6.676C20.5,20.047,17.9,21.8,14.446,21.8a7.355,7.355,0,1,1,0-14.709,7.2,7.2,0,0,1,4.583,1.641L22.65,5.112a12.438,12.438,0,1,0-8.2,21.781c6.223,0,11.881-4.526,11.881-12.446A10.326,10.326,0,0,0,26.044,12.183Z" transform="translate(-2 -2)"/>
+    </clipPath>
+  </defs>
+  <g id="Google__G__Logo" transform="translate(-2 -2)">
+    <g id="Сгруппировать_48877" data-name="Сгруппировать 48877" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Контур_42262" data-name="Контур 42262" d="M0,25.709V11l9.618,7.355Z" transform="translate(-1.131 -5.908)" fill="#fbbc05"/>
+    </g>
+    <g id="Сгруппировать_48878" data-name="Сгруппировать 48878" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Контур_42264" data-name="Контур 42264" d="M0,6.223l9.618,7.355,3.96-3.451L27.156,7.92V0H0Z" transform="translate(-1.131 -1.131)" fill="#ea4335"/>
+    </g>
+    <g id="Сгруппировать_48879" data-name="Сгруппировать 48879" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Контур_42266" data-name="Контур 42266" d="M0,20.933,16.972,7.92l4.469.566L27.156,0V27.156H0Z" transform="translate(-1.131 -1.131)" fill="#34a853"/>
+    </g>
+    <g id="Сгруппировать_48880" data-name="Сгруппировать 48880" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Контур_42268" data-name="Контур 42268" d="M32.8,31.933,15.263,18.355,13,16.657,32.8,11Z" transform="translate(-6.777 -5.908)" fill="#4285f4"/>
+    </g>
+  </g>
+</svg>
