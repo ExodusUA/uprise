@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.87d25004.css",
-    "main.js": "./static/js/main.69200e55.js",
+    "main.css": "./static/css/main.1967f258.css",
+    "main.js": "./static/js/main.f3039113.js",
     "static/js/787.19f4cfef.chunk.js": "./static/js/787.19f4cfef.chunk.js",
     "static/media/authBackground.png": "./static/media/authBackground.e988ee644b8dea91007c.png",
     "static/media/SF-Pro-Display-Semibold.otf": "./static/media/SF-Pro-Display-Semibold.2e4649dd3a66a64ce00b.otf",
@@ -14,12 +14,12 @@
     "static/media/invest.svg": "./static/media/invest.b833adc66501dad9e505.svg",
     "static/media/GoogleLogo.svg": "./static/media/GoogleLogo.fbb33194e32e6b5ab264c558fd55efd0.svg",
     "index.html": "./index.html",
-    "main.87d25004.css.map": "./static/css/main.87d25004.css.map",
-    "main.69200e55.js.map": "./static/js/main.69200e55.js.map",
+    "main.1967f258.css.map": "./static/css/main.1967f258.css.map",
+    "main.f3039113.js.map": "./static/js/main.f3039113.js.map",
     "787.19f4cfef.chunk.js.map": "./static/js/787.19f4cfef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87d25004.css",
-    "static/js/main.69200e55.js"
+    "static/css/main.1967f258.css",
+    "static/js/main.f3039113.js"
   ]
 }
