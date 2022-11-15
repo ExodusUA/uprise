@@ -5,5 +5,5 @@ status = 200
 
 [[redirects]]
 from = "/dashboard/*"
-to = "/login"
+to = "/dashboard/index.html"
 status = 200
