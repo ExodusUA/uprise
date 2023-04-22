@@ -1,0 +1,1804 @@
+/* SETTINGS */
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("../public/fonts/SF-Pro-Display-Bold.otf") format("otf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("../public/fonts/SF-Pro-Display-Regular.otf") format("otf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("../public/fonts/SF-Pro-Display-Semibold.otf") format("otf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("../public/fonts/SF-Pro-Display-Medium.otf") format("otf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: "Riviera Nights";
+    src: url("../public/fonts/RivieraNights-Bold.otf") format("otf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: "Riviera Nights";
+    src: url("../public/fonts/RivieraNights-Regular.ttf") format("ttf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* AUTH */
+
+.authBackground {
+    width: 60%;
+    min-width: 700px;
+    background: url('/src/images/authBackground.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.authWrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.authContent {
+    width: 40%;
+    position: relative;
+    padding: 125px;
+}
+
+.authLogotype {
+    position: absolute;
+    left: 35px;
+    top: 35px;
+}
+
+.authContentForm {
+    width: 100%;
+    height: 100%;
+}
+
+.authFormTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.authFormSubtitle {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #909CA8;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 35px;
+}
+
+.googleButton {
+    background: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #CECECE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.googleButton:hover {
+    background: #cecece32;
+}
+
+.googleButton img {
+    margin-right: 10px;
+}
+
+.authOrLine {
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #282833;
+    position: relative;
+    margin-bottom: 60px;
+
+}
+
+.authOrLine hr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border: none;
+    height: 1px;
+    background: #909CA8;
+}
+
+.authOrLine span {
+    background: white;
+    position: relative;
+    z-index: 2;
+    bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.authInput {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #909CA8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #909CA8;
+    outline: none;
+    width: 100%;
+}
+
+.authInput::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #909CA8;
+}
+
+.authContentForm input {
+    margin-bottom: 25px;
+}
+
+.authFormButtons div {
+    display: flex;
+    align-items: center;
+}
+
+.authFormButtons input {
+    margin-bottom: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #909CA8;
+    border-radius: 0px;
+}
+
+.authFormButtons input:checked {
+    accent-color: #909CA8;
+    color: white;
+
+}
+
+.authFormButtons label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #1C1C1C;
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+}
+
+.authFormButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.authFormButtons a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+.authButton {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+
+.disabledAuthButton {
+    pointer-events: none;
+    opacity: .7;
+}
+
+.authButton:hover {
+    background: white;
+    color: black;
+}
+
+.authError {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #909CA8;
+}
+
+.authContentBottom {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.authContentBottom p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #909CA8;
+    margin-right: 10px;
+}
+
+.authContentBottom a {
+    text-decoration: none;
+    color: #282833;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+}
+
+.authContentBottom a svg {
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+}
+
+.signupAuth .authContentBottom a {
+    text-decoration: underline;
+}
+
+.signupAuth .googleButton {
+    margin-top: 30px;
+}
+
+
+.signupCheckbox {
+    margin-bottom: 20px;
+}
+
+.signupLinks {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    left: 0;
+    justify-content: space-between;
+    padding-left: 125px;
+    padding-right: 125px;
+
+}
+
+.signupLinks a {
+    text-decoration: none;
+    color: #282833;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* BOARD */
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.board {
+    background: url('../src/images/boardBG.svg');
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.board .authLogotype {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.board h2 {
+    font-family: "Riviera Nights";
+    font-weight: 400;
+    font-size: 21px;
+    color: #0067FF;
+    margin-top: 40px;
+}
+
+.board h1 {
+    font-family: "Riviera Nights";
+    font-weight: 700;
+    font-size: 41px;
+    color: black;
+    margin-top: 5px;
+}
+
+.boardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.boardItem {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #0067FF;
+    background: #F5F5F5;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    max-height: 330px;
+}
+
+.boardItem div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boardItem p {
+    font-family: "Riviera Nights";
+
+}
+
+.boardItemTitle {
+    font-size: 14px;
+    color: #000000;
+}
+
+.boardItem input {
+    font-family: "Riviera Nights";
+    font-size: 14px;
+    color: #000000;
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    background: #F5F7F9;
+    border: 1px solid #B5BDC3;
+}
+
+.boardItem input::placeholder {
+    color: #000000;
+    opacity: 0.5;
+}
+
+.boardItemControls p {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.boardListAdd {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #0067FF;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 50px;
+    cursor: pointer;
+}
+
+.boardListAdd svg {
+    margin-right: 10px;
+}
+
+.boardListAdd p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.boardSkip {
+    height: 60px;
+    width: 350px;
+    background: #DAEBF7;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Riviera Nights";
+    font-size: 14px;
+    color: #0067FF;
+    cursor: pointer;
+
+
+}
+
+.boardSkip svg {
+    margin-left: 25px;
+    position: relative;
+    bottom: 1px;
+}
+
+.boardButtons {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boardDashboard {
+    width: 350px;
+    height: 60px;
+    background: #0067FF;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Riviera Nights";
+    font-size: 14px;
+
+}
+
+.boardListAdd {
+    border: 1px solid #0067FF;
+    transition: 0.3s;
+}
+
+.boardListAdd:hover {
+    background: white;
+    color: #0067FF;
+}
+
+.boardListAddText {
+    transition: 0.3s;
+}
+
+.boardListAdd:hover .boardListAddText {
+    color: #0067FF;
+}
+
+#Combined-Shape {
+    transition: 0.3s;
+}
+
+
+.boardListAdd:hover #Combined-Shape {
+    fill: #0067FF;
+}
+
+.boardSkip {
+    border: 1px solid #DAEBF7;
+    transition: 0.3s;
+}
+
+.boardSkip:hover {
+    border-color: #0067FF;
+}
+
+.boardDashboard {
+    transition: 0.3s;
+    border: 1px solid #0067FF;
+}
+
+.boardDashboard:hover {
+    background: #DAEBF7;
+    color: #0067FF;
+}
+
+.enableEditing {
+    color: #0067FF;
+}
+
+.dashboardNavbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 7px #E1E7F058;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 999;
+}
+
+.dashboard {
+    background: #F4F4F4;
+    height: auto;
+}
+
+.navbarContainer {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbarSearch {
+    position: relative;
+    width: 450px;
+}
+
+.navbarSearch input {
+    width: 100%;
+    height: 40px;
+    background: #F5F7F9;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.navbarSearch svg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarReload {
+    display: flex;
+    justify-content: center;
+    background: black;
+    max-height: 40px;
+    width: 200px;
+    color: white;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.navbarUpdate {
+    margin-right: 10px;
+}
+
+.navbarReload:hover .navbarUpdate {
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 1s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.navbarProfile {
+    display: flex;
+    align-items: center;
+    width: 275px;
+}
+
+.navbarProfile hr {
+    border: none;
+    width: 30px;
+    height: 1px;
+    background: #CECECE;
+    transform: rotate(90deg);
+}
+
+.profileName {
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.navbarProfileBlock {
+    display: flex;
+    align-items: center;
+}
+
+.navbarLastUpdate {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #909CA8;
+    position: relative;
+    right: 60px;
+}
+
+.profileName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.navbarProfileBlock {
+    cursor: pointer;
+    position: relative;
+}
+
+.navbarNotification {
+    cursor: pointer;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.navbarProfileMenu {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: #F5F7F9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+    top: 30px;
+    transition: 0.2s;
+}
+
+.navbarProfileMenuActive {
+    pointer-events: all;
+    opacity: 1;
+    top: 50px;
+}
+
+.navbarProfileMenu a {
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000000;
+    border-bottom: 1px solid #909CA8;
+}
+
+.navbarProfileMenu a:last-child {
+    border: none;
+}
+
+.dashboardBody {
+    display: flex;
+    height: calc(100% - 100px);
+
+}
+
+.sideBar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 300px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.investing {
+    background: url('/src/images/invest.svg');
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.investing>div>p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #F5F7F9;
+    margin-top: 0;
+}
+
+.investing>div>p:first-child {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.investingPercent {
+    color: #00FF89;
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    bottom: 15px;
+    margin-left: 15px;
+}
+
+.sidebarMenu a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebarMenu a svg {
+    margin-right: 15px;
+}
+
+.sidebarMenuActive {
+    background: #F5F7F9;
+}
+
+.sidebarMenu a:last-child {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.sidebarMenu {
+    position: relative;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.dashboardWrapper {
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.portfolio {
+    width: 100%;
+    min-height: 100px;
+    background: #FFFFFF;
+}
+
+.addButton {
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    height: 40px;
+}
+
+.addButton svg {
+    margin-right: 10px;
+}
+
+.portfolioListNames div {
+    width: calc(70%/6);
+}
+
+.portfolioHeader {
+    display: flex;
+    justify-content: space-between;
+    background: #F4F4F4;
+    padding-bottom: 15px;
+}
+
+.portfolioHeader>p {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.portfolioListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.portfolioListHeader p {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    color: #282833;
+}
+
+.portfolioListHeader>div {
+    display: flex;
+}
+
+.portfolioListNames {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F5F7F9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.portfolioListNames div {
+    display: flex;
+    align-items: center;
+}
+
+.portfolioListNames div svg {
+    margin-left: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.portfolioListNames div p {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #909CA8;
+}
+
+.portfolioListItem>div {
+    width: calc(70%/6);
+}
+
+.company {
+    min-width: 30% !important;
+}
+
+.portfolioListItem {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #EEEFF2;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+}
+
+.company img {
+    margin-right: 15px;
+
+}
+
+.company p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.portfolioListItem p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.dataRed {
+    color: #FD0B0B;
+}
+
+.dataGreen {
+    color: #00D552;
+}
+
+.settingsTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.settingsBody {
+    padding: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background: white;
+}
+
+.settingsBody>p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #282833;
+}
+
+.settingsInput {
+    width: 45%;
+    margin-right: 20px;
+}
+
+.settingsForm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 680px;
+}
+
+.settingsInput input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #F5F7F9;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #282833;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+.settingsInput label {
+    color: #282833;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.settingsFormButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.settingsFormButton button {
+    width: 200px;
+    height: 45px;
+    background: #0067FF;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #0067FF;
+    transition: 0.3s;
+}
+
+
+.settingsFormButton button:hover {
+    background: transparent;
+    color: #0067FF;
+}
+
+.settingsInput {
+    margin-bottom: 20px;
+}
+
+.settingsError {
+    width: 100%;
+}
+
+.homeHeader>p {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    color: #282833;
+}
+
+.homeHeader .addButton {
+    background: #0067FF;
+    color: white;
+}
+
+.homeHeader .addButton p {
+    color: white;
+}
+
+.homeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chartBlockHeader {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid #E1E3EB;
+}
+
+.chartBLockSubtitle {
+    font-weight: 400;
+    color: #0067FF;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.chartBlock {
+    background: white;
+}
+
+.chartBLockTitle {
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.chartBlockBody {
+    padding: 0px;
+    background: white;
+    height: 370px;
+}
+
+.homeCharts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.homeCharts {
+    margin-top: 50px;
+}
+
+.chartBlockPercent {
+    text-align: center;
+    font-weight: 700;
+    font-size: 44px;
+    color: #0067FF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.chartTableName {
+    font-weight: 700;
+    color: #1C1C1C;
+}
+
+.chartTableHeader {
+    display: flex;
+}
+
+.chartTableHeader>p {
+    width: 35%;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.chartTableHeader>p:first-child {
+    width: 25%;
+}
+
+.tabletChart {
+    padding: 20px;
+}
+
+.chartTabletItem {
+    display: flex;
+    align-items: center;
+}
+
+.chartTabletItem div {
+    width: 25%;
+}
+
+.chartTabletItem p {
+    width: 35%;
+    font-weight: 600;
+}
+
+.chartTabletItem {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #b5bdc361;
+}
+
+.chartTabletItem:last-child {
+    border: none;
+}
+
+.chartTableList {
+    height: 165px;
+    overflow-y: scroll;
+}
+
+.chartTableList::-webkit-scrollbar {
+    width: 0px;
+    background: #b5bdc361;
+}
+
+.chartTableList::-webkit-scrollbar-thumb {
+    background: #0067FF;
+}
+
+
+.chartBlockFilter {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.chartBlockFilter button {
+    width: 50%;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.chartFilterButtonActive {
+    background: #000000 !important;
+    color: white !important;
+}
+
+.chartPieWrapper {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.assetTable {
+    margin-top: 30px;
+}
+
+.portfolioListNames {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* RESPONSIVE */
+
+/* -- Log In & Sign Up -- */
+
+@media (max-width: 1241px) {
+    .authContent {
+        width: 100%;
+        position: relative;
+        padding: 125px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .authContent {
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        background: white;
+        padding-bottom: 40px;
+        padding-top: 125px;
+        max-height: 100vh;
+        top: 15%;
+    }
+
+    .authBackground {
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px) {
+    .authContent {
+        top: 5%;
+        padding-top: 75px;
+    }
+
+    .authFormSubtitle {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .authOrLine {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 601px) {
+    .authContent {
+        width: 90%;
+        left: 5%;
+        top: 10%;
+    }
+}
+
+@media (max-width: 491px) {
+    .authContent {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 391px) {
+    .authContent {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .authContentBottom {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+/* -- BOARD -- */
+
+@media (max-width: 1025px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 769px) {
+    .boardList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .boardSkip {
+        width: 200px;
+    }
+
+    .boardDashboard {
+        width: 250px;
+    }
+}
+
+@media (max-width: 491px) {
+    .boardItem input {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .boardButtons {
+        display: block;
+    }
+
+    .boardSkip {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .boardDashboard {
+        width: 100%;
+    }
+
+    .board h1 {
+        font-size: 24px;
+    }
+
+    .boardListAdd {
+        max-height: 40px;
+    }
+
+    .boardItem svg {
+        width: 20px;
+    }
+
+    .boardDashboard {
+        height: 50px;
+    }
+
+    .boardSkip {
+        height: 50px;
+    }
+}
+
+
+/* -- DASHBOARD - HOME -- */
+
+@media (max-width: 1366px) {
+    .navbarContainer {
+        max-width: 95%;
+    }
+
+    .navbarSearch {
+        width: 25%;
+    }
+
+    .navbarReload {
+        width: 13%;
+    }
+
+    .navbarLastUpdate {
+        right: 40px;
+    }
+
+    .sideBar {
+        padding-left: 35px;
+    }
+
+    .chartBLockTitle {
+        font-size: 16px;
+    }
+
+    .chartBlockFilter button {
+        height: 35px;
+    }
+
+    .homeCharts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1141px) {
+    .navbarLastUpdate {
+        right: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbarLastUpdate {
+        right: 10px;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .mobileNavbar {
+        width: 100vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: white;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 20px;
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: #0067FF !important;
+    }
+
+    .mobileNavbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobileMenu {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        z-index: 999;
+        background: #F5F7F9;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 100px;
+    }
+
+    .navbarSearch {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .navbarSearch input {
+        background: white;
+    }
+
+    .navbarReload {
+        width: 200px;
+
+    }
+
+    .navbarMbReload {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbarLastUpdate {
+        margin-left: 40px;
+    }
+
+
+    .homeCharts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .dashboardBody {
+        display: block;
+    }
+
+    .investing {
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sidebarMenu {
+        position: relative;
+        height: 150px;
+        margin-top: 20px;
+    }
+}
+
+.navbarProfileMenu {
+    z-index: 9999;
+}
+
+@media (max-width: 491px) {
+    .mobileNavbar>svg {
+        width: 150px;
+    }
+
+    .navbarProfile {
+        width: 200px;
+    }
+
+    .profileName {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+}
+
+/* -- PORTFOLIO -- */
+
+@media (max-width: 768px) {
+    .portfolioWrapper {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .portfolioList {
+        width: 1000px;
+    }
+
+    .portfolioListHeader {
+        max-width: 95vw;
+    }
+}
+
+@media (max-width: 491px) {
+    .mobileNavbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sideBar {
+        padding-left: 20px;
+    }
+
+    .company {
+        min-width: 10% !important;
+    }
+}
+
+
+/* -- SETTINGS -- */
+
+@media (max-width: 1025px) {
+    .settingsBody {
+        padding: 0px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        box-sizing: content-box;
+    }
+
+    .settingsForm {
+        width: 100%;
+    }
+
+    .settingsInput {
+        width: 46%;
+    }
+
+    .settingsBody p {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 491px) {
+    .settingsInput {
+        width: 100%;
+    }
+
+    .settingsInput input {
+        height: 40px;
+    }
+}
+
+.navigation {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.navigation {
+    background: #F5F7F9;
+}
+
+.navLinksList {
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    background: white;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+.navLinksList a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navLinksList li {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1450px) {
+    .navbarSearch {
+        position: relative;
+        width: 350px;
+    }
+
+    .navbarContainer {
+        max-width: 95%;
+    }
+
+    .navbarLastUpdate {
+        right: 30px;
+    }
+}
+
+.sideBar {
+    position: sticky;
+    height: 670px;
+    top: 100px;
+}
+
+.dashboardNavbar {
+    position: sticky;
+    top: 0;
+}
+
+.boardAddFormHeader {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: black;
+
+}
+
+.boardAddFormHeader p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.boardAddForm {
+    padding: 0;
+    max-height: unset;
+}
+
+.boardAddForm>div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.boardAddFormInputs {
+    flex-wrap: wrap;
+}
+
+
+.boardAddFormInputs select,
+input {
+    width: 100%;
+}
+
+.selectCompany {
+    font-family: "Riviera Nights";
+    font-size: 14px;
+    color: #000000;
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #B5BDC3;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15.5" height="8.5" viewBox="0 0 15.5 8.5"><path id="Stroke-1" d="M.47.47A.75.75,0,0,1,1.446.4L1.53.47,8,6.939,14.47.47A.75.75,0,0,1,15.446.4L15.53.47a.75.75,0,0,1,.073.977l-.073.084-7,7a.75.75,0,0,1-.977.073L7.47,8.53l-7-7A.75.75,0,0,1,.47.47Z" transform="translate(-0.25 -0.25)"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.selectCompany {
+    color: #9d9e9f;
+}
+
+.boardAddFormButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boardAddFormButton button {
+    background: #0067FF;
+    color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-family: "Riviera Nights";
+}
+
+.boardAddFormInputs select {
+    margin-top: 0;
+}
+
+.boardErrorMSG {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.homeHeader a {
+    text-decoration: none;
+}
+
+.portfolioHeader a {
+    text-decoration: none;
+}
+
+.boardButtons a {
+    text-decoration: none;
+}
+
+.navbarAvatar {
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0067FF;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0066ffc5;
+}
+
+.chartTableHeader>p:first-child {
+    width: 70%;
+}
+
+.chartTabletItem p:first-child {
+    width: 70%;
+}
